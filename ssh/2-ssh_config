@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#ssh client configuration
+
+Host *
+    PasswordAuthentication no
+    Identity file ~/.ssh/school
+    HashknownHosts yes
+    HostName webserver
